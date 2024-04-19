@@ -1,0 +1,6 @@
+let n1 = Number(prompt("escolha um numero"))
+let n2 = Number(prompt("escolha outro numero"))
+console.log("O Priemiro numero é maior que o segundo?:", n1 > n2)
+console.log("O Primeiro numero é igual ao segundo?:", n1 === n2)
+console.log("O Primeiro numero é divisivel pelo segundo?:", n1 % n2 === 0)
+console.log("o segundo numero é divisivel pelo primeiro?:", n1 % n2 === 0)
